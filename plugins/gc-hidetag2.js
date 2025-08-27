@@ -24,7 +24,7 @@ const handler = async (m, { conn, text, participants, isOwner, isAdmin }) => {
     const more = String.fromCharCode(8206);
     const masss = more.repeat(850);
 
-    const htextos = `${text ? text : '*¡Hola! 😸*'}\n\n> Pᴏʀɴʜᴜʙ: @BʏKɪʟʟᴢN`;
+    const htextos = `${text ? text : '*¡Hola! 😸*'}\n\n> TɪʙᴜBᴏᴛ`;
 
     //const htextos = `${text ? text : '*Utiliza nuevamente el comando. 😸*'}\n\n> © 𝑺𝒉𝒂𝒅𝒐𝒘 𝑼𝒍𝒕𝒓𝒂 | | ${date}`;
     if ((isMedia && quoted.mtype === 'imageMessage') && htextos) {

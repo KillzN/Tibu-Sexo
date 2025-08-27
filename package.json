@@ -18,16 +18,16 @@
         "eslint": "eslint .",
         "eslintfix": "eslint --fix ."
     },
-    "homepage": "https://github.com/KillzN/MvrcoSexo",
+    "homepage": "https://github.com/KillzN/TɪʙᴜBᴏᴛ",
     "author": {
         "name": "Cristian Escobar"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/KillzN/MvrcoSexo"
+        "url": "git+https://github.com/KillzN/TɪʙᴜBᴏᴛ"
     },
     "bugs": {
-        "url": "https://github.com/KillzN/MvrcoSexo/issues"
+        "url": "https://github.com/KillzN/TɪʙᴜBᴏᴛ/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {

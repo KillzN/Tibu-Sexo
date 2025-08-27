@@ -4,7 +4,7 @@ import fetch from 'node-fetch'
 export async function before(m, { conn, participants, groupMetadata }) {
   if (!m.messageStubType || !m.isGroup) return true
 
-  let insta = 'https://instagram.com/ineffable.mvrco'
+  let insta = 'https://instagram.com/shop_tibu'
   let groupSize = participants.length
   if (m.messageStubType == 27) {
     groupSize++;
