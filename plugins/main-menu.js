@@ -33,348 +33,348 @@ let handler = async (m, { conn, usedPrefix, text, command }) => {
 *💎 Gemas:* ${diamantes}
 *⏰ Activo:* ${uptime}
 
-╭┈ *\`MENUS 📋\`* ${xmenus}
-│  ִֶָ🌬 ${xmenus} ${usedPrefix}menunsfw
-│  ִֶָ🌬 ${xmenus} ${usedPrefix}menuaudios
-│  ִֶָ🌬 ${xmenus} ${usedPrefix}menuff
-│  ִֶָ🌬 ${xmenus} ${usedPrefix}menuowner
-│  ִֶָ🌬 ${xmenus} ${usedPrefix}menulogos
+╭┈ *\`MENUS 📋\`*
+│  ִֶָ🌬 ${usedPrefix}menunsfw
+│  ִֶָ🌬 ${usedPrefix}menuaudios
+│  ִֶָ🌬 ${usedPrefix}menuff
+│  ִֶָ🌬 ${usedPrefix}menuowner
+│  ִֶָ🌬 ${usedPrefix}menulogos
 ╰──────────────
 
-╭┈ *\`INFORMACIÓN 📊\`* ${xinfo}
-│  ִֶָ☁ ${xinfo} ${usedPrefix}totalf
-│  ִֶָ☁ ${xinfo} ${usedPrefix}grupos
-│  ִֶָ☁ ${xinfo} ${usedPrefix}sugerir
-│  ִֶָ☁ ${xinfo} ${usedPrefix}report
-│  ִֶָ☁ ${xinfo} ${usedPrefix}owner
-│  ִֶָ☁ ${xinfo} ${usedPrefix}ping
-│  ִֶָ☁ ${xinfo} ${usedPrefix}uptime
-│  ִֶָ☁ ${xinfo} ${usedPrefix}horario
+╭┈ *\`INFORMACIÓN 📊\`*
+│  ִֶָ☁ ${usedPrefix}totalf
+│  ִֶָ☁ ${usedPrefix}grupos
+│  ִֶָ☁ ${usedPrefix}sugerir
+│  ִֶָ☁ ${usedPrefix}report
+│  ִֶָ☁ ${usedPrefix}owner
+│  ִֶָ☁ ${usedPrefix}ping
+│  ִֶָ☁ ${usedPrefix}uptime
+│  ִֶָ☁ ${usedPrefix}horario
 ╰──────────────
 
-╭┈ *\`OFF · ON 🧰\`* ${xnable}
-│  ִֶָ⚒ ${xnable} ${usedPrefix}enable *opción*
-│  ִֶָ⚒ ${xnable} ${usedPrefix}disable *opción*
-│  ִֶָ⚒ ${xnable} ${usedPrefix}on *opción*
-│  ִֶָ⚒ ${xnable} ${usedPrefix}off *opción*
+╭┈ *\`OFF · ON 🧰\`*
+│  ִֶָ⚒ ${usedPrefix}enable *opción*
+│  ִֶָ⚒ ${usedPrefix}disable *opción*
+│  ִֶָ⚒ ${usedPrefix}on *opción*
+│  ִֶָ⚒ ${usedPrefix}off *opción*
 ╰──────────────
 
-╭┈ *\`DOWNLOAD ⬇\`* ${xdownload}
-│  ִֶָ🌐 ${xdownload} ${usedPrefix}play *texto*
-│  ִֶָ🌐 ${xdownload} ${usedPrefix}aplay *texto*
-│  ִֶָ🌐 ${xdownload} ${usedPrefix}aplay2 *texto*
-│  ִֶָ🌐 ${xdownload} ${usedPrefix}splay *texto*
-│  ִֶָ🌐 ${xdownload} ${usedPrefix}ytmp4doc *texto*
-│  ִֶָ🌐 ${xdownload} ${usedPrefix}ytmp3doc *texto*
-│  ִֶָ🌐 ${xdownload} ${usedPrefix}apk *texto*
-│  ִֶָ🌐 ${xdownload} ${usedPrefix}aptoide *texto*
-│  ִֶָ🌐 ${xdownload} ${usedPrefix}modapk *texto*
-│  ִֶָ🌐 ${xdownload} ${usedPrefix}pinterest *texto*
-│  ִֶָ🌐 ${xdownload} ${usedPrefix}capcut *url*
-│  ִֶָ🌐 ${xdownload} ${usedPrefix}pindl *url*
-│  ִֶָ🌐 ${xdownload} ${usedPrefix}pinvid *url*
-│  ִֶָ🌐 ${xdownload} ${usedPrefix}ytmp4 *url*
-│  ִֶָ🌐 ${xdownload} ${usedPrefix}ytmp3 *url*
-│  ִֶָ🌐 ${xdownload} ${usedPrefix}tiktok *url*
-│  ִֶָ🌐 ${xdownload} ${usedPrefix}tiktok2 *url*
-│  ִֶָ🌐 ${xdownload} ${usedPrefix}instagram *url*
-│  ִֶָ🌐 ${xdownload} ${usedPrefix}facebook *url*
-│  ִֶָ🌐 ${xdownload} ${usedPrefix}mediafire *url*
-│  ִֶָ🌐 ${xdownload} ${usedPrefix}mega *url*
-│  ִֶָ🌐 ${xdownload} ${usedPrefix}playstore *url*
-│  ִֶָ🌐 ${xdownload} ${usedPrefix}xnxxdl *url*
-│  ִֶָ🌐 ${xdownload} ${usedPrefix}xvideosdl *url*
-│  ִֶָ🌐 ${xdownload} ${usedPrefix}pornhubdl *url*
+╭┈ *\`DOWNLOAD ⬇\`*
+│  ִֶָ🌐 ${usedPrefix}play *texto*
+│  ִֶָ🌐 ${usedPrefix}aplay *texto*
+│  ִֶָ🌐 ${usedPrefix}aplay2 *texto*
+│  ִֶָ🌐 ${usedPrefix}splay *texto*
+│  ִֶָ🌐 ${usedPrefix}ytmp4doc *texto*
+│  ִֶָ🌐 ${usedPrefix}ytmp3doc *texto*
+│  ִֶָ🌐 ${usedPrefix}apk *texto*
+│  ִֶָ🌐 ${usedPrefix}aptoide *texto*
+│  ִֶָ🌐 ${usedPrefix}modapk *texto*
+│  ִֶָ🌐 ${usedPrefix}pinterest *texto*
+│  ִֶָ🌐 ${usedPrefix}capcut *url*
+│  ִֶָ🌐 ${usedPrefix}pindl *url*
+│  ִֶָ🌐 ${usedPrefix}pinvid *url*
+│  ִֶָ🌐 ${usedPrefix}ytmp4 *url*
+│  ִֶָ🌐 ${usedPrefix}ytmp3 *url*
+│  ִֶָ🌐 ${usedPrefix}tiktok *url*
+│  ִֶָ🌐 ${usedPrefix}tiktok2 *url*
+│  ִֶָ🌐 ${usedPrefix}instagram *url*
+│  ִֶָ🌐 ${usedPrefix}facebook *url*
+│  ִֶָ🌐 ${usedPrefix}mediafire *url*
+│  ִֶָ🌐 ${usedPrefix}mega *url*
+│  ִֶָ🌐 ${usedPrefix}playstore *url*
+│  ִֶָ🌐 ${usedPrefix}xnxxdl *url*
+│  ִֶָ🌐 ${usedPrefix}xvideosdl *url*
+│  ִֶָ🌐 ${usedPrefix}pornhubdl *url*
 ╰──────────────
 
-╭┈ *\`SEARCH 🔍\`* ${xsearch}
-│  ִֶָ👁‍🗨 ${xsearch} ${usedPrefix}scsearch *texto*
-│  ִֶָ👁‍🗨 ${xsearch} ${usedPrefix}ttsearch *texto*
-│  ִֶָ👁‍🗨 ${xsearch} ${usedPrefix}ttsearch2 *texto*
-│  ִֶָ👁‍🗨 ${xsearch} ${usedPrefix}ytsearch *texto*
-│  ִֶָ👁‍🗨 ${xsearch} ${usedPrefix}hpmsearch *texto*
-│  ִֶָ👁‍🗨 ${xsearch} ${usedPrefix}spotifysearch *texto*
-│  ִֶָ👁‍🗨 ${xsearch} ${usedPrefix}githubsearch *texto*
-│  ִֶָ👁‍🗨 ${xsearch} ${usedPrefix}playstoresearch *texto*
-│  ִֶָ👁‍🗨 ${xsearch} ${usedPrefix}xnxxsearch *texto*
-│  ִֶָ👁‍🗨 ${xsearch} ${usedPrefix}xvsearch *texto*
-│  ִֶָ👁‍🗨 ${xsearch} ${usedPrefix}pornhubsearch *texto*
-│  ִֶָ👁‍🗨 ${xsearch} ${usedPrefix}gnula *texto*
-│  ִֶָ👁‍🗨 ${xsearch} ${usedPrefix}mercadolibre *texto*
+╭┈ *\`SEARCH 🔍\`*
+│  ִֶָ👁‍🗨 ${usedPrefix}scsearch *texto*
+│  ִֶָ👁‍🗨 ${usedPrefix}ttsearch *texto*
+│  ִֶָ👁‍🗨 ${usedPrefix}ttsearch2 *texto*
+│  ִֶָ👁‍🗨 ${usedPrefix}ytsearch *texto*
+│  ִֶָ👁‍🗨 ${usedPrefix}hpmsearch *texto*
+│  ִֶָ👁‍🗨 ${usedPrefix}spotifysearch *texto*
+│  ִֶָ👁‍🗨 ${usedPrefix}githubsearch *texto*
+│  ִֶָ👁‍🗨 ${usedPrefix}playstoresearch *texto*
+│  ִֶָ👁‍🗨 ${usedPrefix}xnxxsearch *texto*
+│  ִֶָ👁‍🗨 ${usedPrefix}xvsearch *texto*
+│  ִֶָ👁‍🗨 ${usedPrefix}pornhubsearch *texto*
+│  ִֶָ👁‍🗨 ${usedPrefix}gnula *texto*
+│  ִֶָ👁‍🗨 ${usedPrefix}mercadolibre *texto*
 ╰──────────────
 
-╭┈ *\`IA BOTS 🤖\`* ${xia}
-│  ִֶָ⚙ ${xia} ${usedPrefix}luminai *texto*
-│  ִֶָ⚙ ${xia} ${usedPrefix}chatgpt *texto*
-│  ִֶָ⚙ ${xia} ${usedPrefix}gemini *texto*
-│  ִֶָ⚙ ${xia} ${usedPrefix}demo *texto*
-│  ִֶָ⚙ ${xia} ${usedPrefix}flux *texto*
-│  ִֶָ⚙ ${xia} ${usedPrefix}toreal *texto*
-│  ִֶָ⚙ ${xia} ${usedPrefix}toanime *texto*
+╭┈ *\`IA BOTS 🤖\`*
+│  ִֶָ⚙ ${usedPrefix}luminai *texto*
+│  ִֶָ⚙ ${usedPrefix}chatgpt *texto*
+│  ִֶָ⚙ ${usedPrefix}gemini *texto*
+│  ִֶָ⚙ ${usedPrefix}demo *texto*
+│  ִֶָ⚙ ${usedPrefix}flux *texto*
+│  ִֶָ⚙ ${usedPrefix}toreal *texto*
+│  ִֶָ⚙ ${usedPrefix}toanime *texto*
 ╰──────────────
 
-╭┈ *\`LISTAS FF 📃\`* ${xlist}
-│  ִֶָ🗂 ${xlist} ${usedPrefix}infem4 *hr + p*
-│  ִֶָ🗂 ${xlist} ${usedPrefix}inmasc4 *hr + p*
-│  ִֶָ🗂 ${xlist} ${usedPrefix}inmixto4 *hr + p*
-│  ִֶָ🗂 ${xlist} ${usedPrefix}infem6 *hr + p*
-│  ִֶָ🗂 ${xlist} ${usedPrefix}inmasc6 *hr + p*
-│  ִֶָ🗂 ${xlist} ${usedPrefix}inmixto6 *hr + p*
-│  ִֶָ🗂 ${xlist} ${usedPrefix}v4fem *hr + p*
-│  ִֶָ🗂 ${xlist} ${usedPrefix}v4masc *hr + p*
-│  ִֶָ🗂 ${xlist} ${usedPrefix}v4mixto *hr + p*
-│  ִֶָ🗂 ${xlist} ${usedPrefix}v6fem *hr + p*
-│  ִֶָ🗂 ${xlist} ${usedPrefix}v6masc *hr + p*
-│  ִֶָ🗂 ${xlist} ${usedPrefix}v6mixto *hr + p*
+╭┈ *\`LISTAS FF 📃\`*
+│  ִֶָ🗂 ${usedPrefix}infem4 *hr + p*
+│  ִֶָ🗂 ${usedPrefix}inmasc4 *hr + p*
+│  ִֶָ🗂 ${usedPrefix}inmixto4 *hr + p*
+│  ִֶָ🗂 ${usedPrefix}infem6 *hr + p*
+│  ִֶָ🗂 ${usedPrefix}inmasc6 *hr + p*
+│  ִֶָ🗂 ${usedPrefix}inmixto6 *hr + p*
+│  ִֶָ🗂 ${usedPrefix}v4fem *hr + p*
+│  ִֶָ🗂 ${usedPrefix}v4masc *hr + p*
+│  ִֶָ🗂 ${usedPrefix}v4mixto *hr + p*
+│  ִֶָ🗂 ${usedPrefix}v6fem *hr + p*
+│  ִֶָ🗂 ${usedPrefix}v6masc *hr + p*
+│  ִֶָ🗂 ${usedPrefix}v6mixto *hr + p*
 ╰──────────────
 
-╭┈ *\`FRASES 💭\`* ${xfrases}
-│  ִֶָ📲 ${xfrases} ${usedPrefix}piropo
-│  ִֶָ📲 ${xfrases} ${usedPrefix}consejo
-│  ִֶָ📲 ${xfrases} ${usedPrefix}fraseromantica
+╭┈ *\`FRASES 💭\`*
+│  ִֶָ📲 ${usedPrefix}piropo
+│  ִֶָ📲 ${usedPrefix}consejo
+│  ִֶָ📲 ${usedPrefix}fraseromantica
 ╰──────────────
 
-╭┈ *\`CONVERTIDORES 🔄\`* ${xconverter}
-│  ִֶָ🛡 ${xconverter} ${usedPrefix}toptt *aud*
-│  ִֶָ🛡 ${xconverter} ${usedPrefix}toptt *vid*
-│  ִֶָ🛡 ${xconverter} ${usedPrefix}tomp3 *vid*
+╭┈ *\`CONVERTIDORES 🔄\`*
+│  ִֶָ🛡 ${usedPrefix}toptt *aud*
+│  ִֶָ🛡 ${usedPrefix}toptt *vid*
+│  ִֶָ🛡 ${usedPrefix}tomp3 *vid*
 ╰──────────────
 
-╭┈ *\`HERRAMIENTAS 📥\`* ${xtools}
-│  ִֶָ🛜 ${xtools} ${usedPrefix}clima *texto*
-│  ִֶָ🛜 ${xtools} ${usedPrefix}readmore *texto*
-│  ִֶָ🛜 ${xtools} ${usedPrefix}read *texto*
-│  ִֶָ🛜 ${xtools} ${usedPrefix}fake *texto + user + texto*
-│  ִֶָ🛜 ${xtools} ${usedPrefix}traducir *idioma + texto*
-│  ִֶָ🛜 ${xtools} ${usedPrefix}tourl *img / vid / aud*
-│  ִֶָ🛜 ${xtools} ${usedPrefix}unblur *img*
-│  ִֶָ🛜 ${xtools} ${usedPrefix}hd *img*
-│  ִֶָ🛜 ${xtools} ${usedPrefix}remini *img*
-│  ִֶָ🛜 ${xtools} ${usedPrefix}background *img*
-│  ִֶָ🛜 ${xtools} ${usedPrefix}whatmusic *aud*
-│  ִֶָ🛜 ${xtools} ${usedPrefix}whatmusic *vid*
-│  ִֶָ🛜 ${xtools} ${usedPrefix}flag *país*
-│  ִֶָ🛜 ${xtools} ${usedPrefix}cfrase *link + texto*
-│  ִֶָ🛜 ${xtools} ${usedPrefix}inspect *link*
-│  ִֶָ🛜 ${xtools} ${usedPrefix}inspeccionar *link*
-│  ִֶָ🛜 ${xtools} ${usedPrefix}tiktokstalk *user*
-│  ִֶָ🛜 ${xtools} ${usedPrefix}pinstalk *user*
-│  ִֶָ🛜 ${xtools} ${usedPrefix}reactch
-│  ִֶָ🛜 ${xtools} ${usedPrefix}nuevafotochannel
-│  ִֶָ🛜 ${xtools} ${usedPrefix}nosilenciarcanal
-│  ִֶָ🛜 ${xtools} ${usedPrefix}silenciarcanal
-│  ִֶָ🛜 ${xtools} ${usedPrefix}seguircanal
-│  ִֶָ🛜 ${xtools} ${usedPrefix}avisoschannel
-│  ִֶָ🛜 ${xtools} ${usedPrefix}resiviravisos
-│  ִֶָ🛜 ${xtools} ${usedPrefix}eliminarfotochannel
-│  ִֶָ🛜 ${xtools} ${usedPrefix}reactioneschannel
-│  ִֶָ🛜 ${xtools} ${usedPrefix}reaccioneschannel
-│  ִֶָ🛜 ${xtools} ${usedPrefix}nuevonombrecanal
-│  ִֶָ🛜 ${xtools} ${usedPrefix}nuevadescchannel
+╭┈ *\`HERRAMIENTAS 📥\`*
+│  ִֶָ🛜 ${usedPrefix}clima *texto*
+│  ִֶָ🛜 ${usedPrefix}readmore *texto*
+│  ִֶָ🛜 ${usedPrefix}read *texto*
+│  ִֶָ🛜 ${usedPrefix}fake *texto + user + texto*
+│  ִֶָ🛜 ${usedPrefix}traducir *idioma + texto*
+│  ִֶָ🛜 ${usedPrefix}tourl *img / vid / aud*
+│  ִֶָ🛜 ${usedPrefix}unblur *img*
+│  ִֶָ🛜 ${usedPrefix}hd *img*
+│  ִֶָ🛜 ${usedPrefix}remini *img*
+│  ִֶָ🛜 ${usedPrefix}background *img*
+│  ִֶָ🛜 ${usedPrefix}whatmusic *aud*
+│  ִֶָ🛜 ${usedPrefix}whatmusic *vid*
+│  ִֶָ🛜 ${usedPrefix}flag *país*
+│  ִֶָ🛜 ${usedPrefix}cfrase *link + texto*
+│  ִֶָ🛜 ${usedPrefix}inspect *link*
+│  ִֶָ🛜 ${usedPrefix}inspeccionar *link*
+│  ִֶָ🛜 ${usedPrefix}tiktokstalk *user*
+│  ִֶָ🛜 ${usedPrefix}pinstalk *user*
+│  ִֶָ🛜 ${usedPrefix}reactch
+│  ִֶָ🛜 ${usedPrefix}nuevafotochannel
+│  ִֶָ🛜 ${usedPrefix}nosilenciarcanal
+│  ִֶָ🛜 ${usedPrefix}silenciarcanal
+│  ִֶָ🛜 ${usedPrefix}seguircanal
+│  ִֶָ🛜 ${usedPrefix}avisoschannel
+│  ִֶָ🛜 ${usedPrefix}resiviravisos
+│  ִֶָ🛜 ${usedPrefix}eliminarfotochannel
+│  ִֶָ🛜 ${usedPrefix}reactioneschannel
+│  ִֶָ🛜 ${usedPrefix}reaccioneschannel
+│  ִֶָ🛜 ${usedPrefix}nuevonombrecanal
+│  ִֶָ🛜 ${usedPrefix}nuevadescchannel
 ╰──────────────
 
-╭┈ *\` GRUPOS 👥\`* ${xgc}
-│  ִֶָ🔒 ${xgc} ${usedPrefix}add *número*
-│  ִֶָ🔒 ${xgc} ${usedPrefix}grupo *abrir / cerrar*
-│  ִֶָ🔒 ${xgc} ${usedPrefix}inactivos *list / kick*
-│  ִֶָ🔒 ${xgc} ${usedPrefix}grouptime *tiempo*
-│  ִֶָ🔒 ${xgc} ${usedPrefix}notify *texto*
-│  ִֶָ🔒 ${xgc} Aviso *texto*
-│  ִֶָ🔒 ${xgc} Admins *texto*
-│  ִֶָ🔒 ${xgc} ${usedPrefix}todos *texto*
-│  ִֶָ🔒 ${xgc} ${usedPrefix}setwelcome *texto*
-│  ִֶָ🔒 ${xgc} ${usedPrefix}setremove *texto*
-│  ִֶָ🔒 ${xgc} ${usedPrefix}setbye *texto*
-│  ִֶָ🔒 ${xgc} ${usedPrefix}groupdesc *texto*
-│  ִֶָ🔒 ${xgc} ${usedPrefix}promote *@tag*
-│  ִֶָ🔒 ${xgc} ${usedPrefix}demote *@tag*
-│  ִֶָ🔒 ${xgc} ${usedPrefix}kick *@tag*
-│  ִֶָ🔒 ${xgc} ${usedPrefix}mute *@tag*
-│  ִֶָ🔒 ${xgc} ${usedPrefix}tagnum *prefix*
-│  ִֶָ🔒 ${xgc} ${usedPrefix}link
-│  ִֶָ🔒 ${xgc} ${usedPrefix}delete
-│  ִֶָ🔝 ${xgc} ${usedPrefix}fantasmas
+╭┈ *\` GRUPOS 👥\`*
+│  ִֶָ🔒 ${usedPrefix}add *número*
+│  ִֶָ🔒 ${usedPrefix}grupo *abrir / cerrar*
+│  ִֶָ🔒 ${usedPrefix}inactivos *list / kick*
+│  ִֶָ🔒 ${usedPrefix}grouptime *tiempo*
+│  ִֶָ🔒 ${usedPrefix}notify *texto*
+│  ִֶָ🔒 Aviso *texto*
+│  ִֶָ🔒 Admins *texto*
+│  ִֶָ🔒 ${usedPrefix}todos *texto*
+│  ִֶָ🔒 ${usedPrefix}setwelcome *texto*
+│  ִֶָ🔒 ${usedPrefix}setremove *texto*
+│  ִֶָ🔒 ${usedPrefix}setbye *texto*
+│  ִֶָ🔒 ${usedPrefix}groupdesc *texto*
+│  ִֶָ🔒 ${usedPrefix}promote *@tag*
+│  ִֶָ🔒 ${usedPrefix}demote *@tag*
+│  ִֶָ🔒 ${usedPrefix}kick *@tag*
+│  ִֶָ🔒 ${usedPrefix}mute *@tag*
+│  ִֶָ🔒 ${usedPrefix}tagnum *prefix*
+│  ִֶָ🔒 ${usedPrefix}link
+│  ִֶָ🔒 ${usedPrefix}delete
+│  ִֶָ🔝 ${usedPrefix}fantasmas
 ╰──────────────
 
-╭┈*\` EFECTOS 🎼\`* ${xefects}
-│  ִֶָ🔊 ${xefects} ${usedPrefix}bass *aud*
-│  ִֶָ🔊 ${xefects} ${usedPrefix}blown *aud*
-│  ִֶָ🔊 ${xefects} ${usedPrefix}deep *aud*
-│  ִֶָ🔊 ${xefects} ${usedPrefix}earrape *aud*
-│  ִֶָ🔊 ${xefects} ${usedPrefix}fast *aud*
-│  ִֶָ🔊 ${xefects} ${usedPrefix}smooth *aud*
-│  ִֶָ🔊 ${xefects} ${usedPrefix}tupai *aud*
-│  ִֶָ🔊 ${xefects} ${usedPrefix}nightcore *aud*
-│  ִֶָ🔊 ${xefects} ${usedPrefix}reverse *aud*
-│  ִֶָ🔊 ${xefects} ${usedPrefix}robot *aud*
-│  ִֶָ🔊 ${xefects} ${usedPrefix}slow *aud*
-│  ִֶָ🔊 ${xefects} ${usedPrefix}squirrel *aud*
-│  ִֶָ🔊 ${xefects} ${usedPrefix}chipmunk *aud*
-│  ִֶָ🔊 ${xefects} ${usedPrefix}reverb *aud*
-│  ִֶָ🔊 ${xefects} ${usedPrefix}chorus *aud*
-│  ִֶָ🔊 ${xefects} ${usedPrefix}flanger *aud*
-│  ִֶָ🔊 ${xefects} ${usedPrefix}distortion *aud*
-│  ִֶָ🔊 ${xefects} ${usedPrefix}pitch *aud*
-│  ִֶָ🔊 ${xefects} ${usedPrefix}highpass *aud*
-│  ִֶָ🔊 ${xefects} ${usedPrefix}lowpass *aud*
-│  ִֶָ🔊 ${xefects} ${usedPrefix}underwater *aud*
+╭┈*\` EFECTOS 🎼\`*
+│  ִֶָ🔊 ${usedPrefix}bass *aud*
+│  ִֶָ🔊 ${usedPrefix}blown *aud*
+│  ִֶָ🔊 ${usedPrefix}deep *aud*
+│  ִֶָ🔊 ${usedPrefix}earrape *aud*
+│  ִֶָ🔊 ${usedPrefix}fast *aud*
+│  ִֶָ🔊 ${usedPrefix}smooth *aud*
+│  ִֶָ🔊 ${usedPrefix}tupai *aud*
+│  ִֶָ🔊 ${usedPrefix}nightcore *aud*
+│  ִֶָ🔊 ${usedPrefix}reverse *aud*
+│  ִֶָ🔊 ${usedPrefix}robot *aud*
+│  ִֶָ🔊 ${usedPrefix}slow *aud*
+│  ִֶָ🔊 ${usedPrefix}squirrel *aud*
+│  ִֶָ🔊 ${usedPrefix}chipmunk *aud*
+│  ִֶָ🔊 ${usedPrefix}reverb *aud*
+│  ִֶָ🔊 ${usedPrefix}chorus *aud*
+│  ִֶָ🔊 ${usedPrefix}flanger *aud*
+│  ִֶָ🔊 ${usedPrefix}distortion *aud*
+│  ִֶָ🔊 ${usedPrefix}pitch *aud*
+│  ִֶָ🔊 ${usedPrefix}highpass *aud*
+│  ִֶָ🔊 ${usedPrefix}lowpass *aud*
+│  ִֶָ🔊 ${usedPrefix}underwater *aud*
 ╰──────────────
 
-╭┈ *\`FUN 🤩\`* ${xfun}
-│  ִֶָ🎢 ${xfun} ${usedPrefix}gay *@tag*
-│  ִֶָ🎢 ${xfun} ${usedPrefix}lesbiana *@tag*
-│  ִֶָ🎢 ${xfun} ${usedPrefix}pajero *@tag*
-│  ִֶָ🎢 ${xfun} ${usedPrefix}pajera *@tag*
-│  ִֶָ🎢 ${xfun} ${usedPrefix}puto *@tag*
-│  ִֶָ🎢 ${xfun} ${usedPrefix}puta *@tag*
-│  ִֶָ🎢 ${xfun} ${usedPrefix}manco *@tag*
-│  ִֶָ🎢 ${xfun} ${usedPrefix}manca *@tag*
-│  ִֶָ🎢 ${xfun} ${usedPrefix}rata *@tag*
-│  ִֶָ🎢 ${xfun} ${usedPrefix}prostituto *@tag*
-│  ִֶָ🎢 ${xfun} ${usedPrefix}prostituta *@tag*
-│  ִֶָ🎢 ${xfun} ${usedPrefix}sinpoto *@tag*
-│  ִֶָ🎢 ${xfun} ${usedPrefix}sintetas *@tag*
-│  ִֶָ🎢 ${xfun} ${usedPrefix}chipi *@tag*
-│  ִֶָ🎢 ${xfun} ${usedPrefix}doxear *@tag*
-│  ִֶָ🎢 ${xfun} ${usedPrefix}declararse *@tag*
-│  ִֶָ🎢 ${xfun} ${usedPrefix}simi *texto*
-│  ִֶָ🎢 ${xfun} ${usedPrefix}pregunta *texto*
-│  ִֶָ🎢 ${xfun} ${usedPrefix}genio *texto*
-│  ִֶָ🎢 ${xfun} ${usedPrefix}top
-│  ִֶָ🎢 ${xfun} ${usedPrefix}sorteo
-│  ִֶָ🎢 ${xfun} ${usedPrefix}piropo
-│  ִֶָ🎢 ${xfun} ${usedPrefix}chiste
-│  ִֶָ🎢 ${xfun} ${usedPrefix}facto
-│  ִֶָ🎢 ${xfun} ${usedPrefix}verdad
-│  ִֶָ🎢 ${xfun} ${usedPrefix}pareja
-│  ִֶָ🎢 ${xfun} ${usedPrefix}parejas
-│  ִֶָ🎢 ${xfun} ${usedPrefix}love
-│  ִֶָ🎢 ${xfun} ${usedPrefix}personalidad
+╭┈ *\`FUN 🤩\`*
+│  ִֶָ🎢 ${usedPrefix}gay *@tag*
+│  ִֶָ🎢 ${usedPrefix}lesbiana *@tag*
+│  ִֶָ🎢 ${usedPrefix}pajero *@tag*
+│  ִֶָ🎢 ${usedPrefix}pajera *@tag*
+│  ִֶָ🎢 ${usedPrefix}puto *@tag*
+│  ִֶָ🎢 ${usedPrefix}puta *@tag*
+│  ִֶָ🎢 ${usedPrefix}manco *@tag*
+│  ִֶָ🎢 ${usedPrefix}manca *@tag*
+│  ִֶָ🎢 ${usedPrefix}rata *@tag*
+│  ִֶָ🎢 ${usedPrefix}prostituto *@tag*
+│  ִֶָ🎢 ${usedPrefix}prostituta *@tag*
+│  ִֶָ🎢 ${usedPrefix}sinpoto *@tag*
+│  ִֶָ🎢 ${usedPrefix}sintetas *@tag*
+│  ִֶָ🎢 ${usedPrefix}chipi *@tag*
+│  ִֶָ🎢 ${usedPrefix}doxear *@tag*
+│  ִֶָ🎢 ${usedPrefix}declararse *@tag*
+│  ִֶָ🎢 ${usedPrefix}simi *texto*
+│  ִֶָ🎢 ${usedPrefix}pregunta *texto*
+│  ִֶָ🎢 ${usedPrefix}genio *texto*
+│  ִֶָ🎢 ${usedPrefix}top
+│  ִֶָ🎢 ${usedPrefix}sorteo
+│  ִֶָ🎢 ${usedPrefix}piropo
+│  ִֶָ🎢 ${usedPrefix}chiste
+│  ִֶָ🎢 ${usedPrefix}facto
+│  ִֶָ🎢 ${usedPrefix}verdad
+│  ִֶָ🎢 ${usedPrefix}pareja
+│  ִֶָ🎢 ${usedPrefix}parejas
+│  ִֶָ🎢 ${usedPrefix}love
+│  ִֶָ🎢 ${usedPrefix}personalidad
 ╰──────────────
 
-╭┈ *\`JUEGOS 🎁\`* ${xgame}
-│  ִֶָ🕹 ${xgame} ${usedPrefix}pregunta *texto*
-│  ִֶָ🕹 ${xgame} ${usedPrefix}ttt *texto*
-│  ִֶָ🕹 ${xgame} ${usedPrefix}ptt *opción*
-│  ִֶָ🕹 ${xgame} ${usedPrefix}delttt
-│  ִֶָ🕹 ${xgame} ${usedPrefix}acertijo
-│  ִֶָ🕹 ${xgame} ${usedPrefix}trivia
+╭┈ *\`JUEGOS 🎁\`*
+│  ִֶָ🕹 ${usedPrefix}pregunta *texto*
+│  ִֶָ🕹 ${usedPrefix}ttt *texto*
+│  ִֶָ🕹 ${usedPrefix}ptt *opción*
+│  ִֶָ🕹 ${usedPrefix}delttt
+│  ִֶָ🕹 ${usedPrefix}acertijo
+│  ִֶָ🕹 ${usedPrefix}trivia
 ╰──────────────
 
-╭┈ *\`ANIME/FUT 🥅\`* ${xanime}
+╭┈ *\`ANIME/FUT 🥅\`*
 │  ִֶָ⚽${xanime} ${usedPrefix}messi
 │  ִֶָ⚽${xanime} ${usedPrefix}cr7
 ╰──────────────
 
-╭┈ *\`LOGOS 🖌\`* ${xlogos}
-│  ִֶָ🖼 ${xlogos} ${usedPrefix}balogo *texto*
-│  ִֶָ🖼 ${xlogos} ${usedPrefix}logocorazon *texto*
-│  ִֶָ🖼 ${xlogos} ${usedPrefix}logochristmas  *texto*
-│  ִֶָ🖼 ${xlogos} ${usedPrefix}logopareja *texto*
-│  ִֶָ🖼 ${xlogos} ${usedPrefix}logoglitch *texto*
-│  ִֶָ🖼 ${xlogos} ${usedPrefix}logosad *texto*
-│  ִֶָ🖼 ${xlogos} ${usedPrefix}logogaming *texto*
-│  ִֶָ🖼 ${xlogos} ${usedPrefix}logosolitario *texto*
-│  ִֶָ🖼 ${xlogos} ${usedPrefix}logodragonball *texto*
-│  ִֶָ🖼 ${xlogos} ${usedPrefix}logoneon *texto*
-│  ִֶָ🖼 ${xlogos} ${usedPrefix}logogatito *texto*
-│  ִֶָ🖼 ${xlogos} ${usedPrefix}logochicagamer *texto*
-│  ִֶָ🖼 ${xlogos} ${usedPrefix}logonaruto *texto*
-│  ִֶָ🖼 ${xlogos} ${usedPrefix}logofuturista *texto*
-│  ִֶָ🖼 ${xlogos} ${usedPrefix}logonube *texto*
-│  ִֶָ🖼 ${xlogos} ${usedPrefix}logoangel *texto*
-│  ִֶָ🖼 ${xlogos} ${usedPrefix}logomurcielago *texto*
-│  ִֶָ🖼 ${xlogos} ${usedPrefix}logocielo *texto*
-│  ִֶָ🖼 ${xlogos} ${usedPrefix}logograffiti3d *texto*
-│  ִֶָ🖼 ${xlogos} ${usedPrefix}logomatrix *texto*
-│  ִֶָ🖼 ${xlogos} ${usedPrefix}logohorror *texto*
-│  ִֶָ🖼 ${xlogos} ${usedPrefix}logoalas *texto*
-│  ִֶָ🖼 ${xlogos} ${usedPrefix}logoarmy *texto*
-│  ִֶָ🖼 ${xlogos} ${usedPrefix}logopubg *texto*
-│  ִֶָ🖼 ${xlogos} ${usedPrefix}logopubgfem *texto*
-│  ִֶָ🖼 ${xlogos} ${usedPrefix}logolol *texto*
-│  ִֶָ🖼 ${xlogos} ${usedPrefix}logoamongus *texto*
-│  ִֶָ🖼 ${xlogos} ${usedPrefix}logovideopubg *texto*
-│  ִֶָ🖼 ${xlogos} ${usedPrefix}logovideotiger *texto*
-│  ִֶָ🖼 ${xlogos} ${usedPrefix}logovideointro *texto*
-│  ִֶָ🖼 ${xlogos} ${usedPrefix}logovideogaming *texto*
-│  ִֶָ🖼 ${xlogos} ${usedPrefix}logoguerrero *texto*
-│  ִֶָ🖼 ${xlogos} ${usedPrefix}logoportadaplayer *texto*
-│  ִֶָ🖼 ${xlogos} ${usedPrefix}logoportadaff *texto*
-│  ִֶָ🖼 ${xlogos} ${usedPrefix}logoportadapubg *texto*
-│  ִֶָ🖼 ${xlogos} ${usedPrefix}logoportadacounter *texto*
+╭┈ *\`LOGOS 🖌\`*
+│  ִֶָ🖼 ${usedPrefix}balogo *texto*
+│  ִֶָ🖼 ${usedPrefix}logocorazon *texto*
+│  ִֶָ🖼 ${usedPrefix}logochristmas  *texto*
+│  ִֶָ🖼 ${usedPrefix}logopareja *texto*
+│  ִֶָ🖼 ${usedPrefix}logoglitch *texto*
+│  ִֶָ🖼 ${usedPrefix}logosad *texto*
+│  ִֶָ🖼 ${usedPrefix}logogaming *texto*
+│  ִֶָ🖼 ${usedPrefix}logosolitario *texto*
+│  ִֶָ🖼 ${usedPrefix}logodragonball *texto*
+│  ִֶָ🖼 ${usedPrefix}logoneon *texto*
+│  ִֶָ🖼 ${usedPrefix}logogatito *texto*
+│  ִֶָ🖼 ${usedPrefix}logochicagamer *texto*
+│  ִֶָ🖼 ${usedPrefix}logonaruto *texto*
+│  ִֶָ🖼 ${usedPrefix}logofuturista *texto*
+│  ִֶָ🖼 ${usedPrefix}logonube *texto*
+│  ִֶָ🖼 ${usedPrefix}logoangel *texto*
+│  ִֶָ🖼 ${usedPrefix}logomurcielago *texto*
+│  ִֶָ🖼 ${usedPrefix}logocielo *texto*
+│  ִֶָ🖼 ${usedPrefix}logograffiti3d *texto*
+│  ִֶָ🖼 ${usedPrefix}logomatrix *texto*
+│  ִֶָ🖼 ${usedPrefix}logohorror *texto*
+│  ִֶָ🖼 ${usedPrefix}logoalas *texto*
+│  ִֶָ🖼 ${usedPrefix}logoarmy *texto*
+│  ִֶָ🖼 ${usedPrefix}logopubg *texto*
+│  ִֶָ🖼 ${usedPrefix}logopubgfem *texto*
+│  ִֶָ🖼 ${usedPrefix}logolol *texto*
+│  ִֶָ🖼 ${usedPrefix}logoamongus *texto*
+│  ִֶָ🖼 ${usedPrefix}logovideopubg *texto*
+│  ִֶָ🖼 ${usedPrefix}logovideotiger *texto*
+│  ִֶָ🖼 ${usedPrefix}logovideointro *texto*
+│  ִֶָ🖼 ${usedPrefix}logovideogaming *texto*
+│  ִֶָ🖼 ${usedPrefix}logoguerrero *texto*
+│  ִֶָ🖼 ${usedPrefix}logoportadaplayer *texto*
+│  ִֶָ🖼 ${usedPrefix}logoportadaff *texto*
+│  ִֶָ🖼 ${usedPrefix}logoportadapubg *texto*
+│  ִֶָ🖼 ${usedPrefix}logoportadacounter *texto*
 ╰──────────────
 
-╭┈ *\`NSFW 🛑\`* ${xnsfw}
-│  ִֶָ🔞 ${xnsfw} ${usedPrefix}violar *@tag*
-│  ִֶָ🔞 ${xnsfw} ${usedPrefix}follar *@tag*
-│  ִֶָ🔞 ${xnsfw} ${usedPrefix}anal *@tag*
-│  ִֶָ🔞 ${xnsfw} ${usedPrefix}coger *@tag*
-│  ִֶָ🔞 ${xnsfw} ${usedPrefix}coger2 *@tag*
-│  ִֶָ🔞 ${xnsfw} ${usedPrefix}penetrar *@tag*
-│  ִֶָ🔞 ${xnsfw} ${usedPrefix}sexo *@tag*
-│  ִֶָ🔞 ${xnsfw} ${usedPrefix}rusa *@tag*
-│  ִֶָ🔞 ${xnsfw} ${usedPrefix}sixnine *@tag*
-│  ִֶָ🔞 ${xnsfw} ${usedPrefix}pies *@tag*
-│  ִֶָ🔞 ${xnsfw} ${usedPrefix}mamada *@tag*
-│  ִֶָ🔞 ${xnsfw} ${usedPrefix}lickpussy *@tag*
-│  ִֶָ🔞 ${xnsfw} ${usedPrefix}grabboobs *@tag*
-│  ִֶָ🔞 ${xnsfw} ${usedPrefix}suckboobs *@tag*
-│  ִֶָ🔞 ${xnsfw} ${usedPrefix}cum *@tag*
-│  ִֶָ🔞 ${xnsfw} ${usedPrefix}fap *@tag*
-│  ִֶָ🔞 ${xnsfw} ${usedPrefix}manosear *@tag*
-│  ִֶָ🔞 ${xnsfw} ${usedPrefix}lesbianas *@tag*
+╭┈ *\`NSFW 🛑\`*
+│  ִֶָ🔞 ${usedPrefix}violar *@tag*
+│  ִֶָ🔞 ${usedPrefix}follar *@tag*
+│  ִֶָ🔞 ${usedPrefix}anal *@tag*
+│  ִֶָ🔞 ${usedPrefix}coger *@tag*
+│  ִֶָ🔞 ${usedPrefix}coger2 *@tag*
+│  ִֶָ🔞 ${usedPrefix}penetrar *@tag*
+│  ִֶָ🔞 ${usedPrefix}sexo *@tag*
+│  ִֶָ🔞 ${usedPrefix}rusa *@tag*
+│  ִֶָ🔞 ${usedPrefix}sixnine *@tag*
+│  ִֶָ🔞 ${usedPrefix}pies *@tag*
+│  ִֶָ🔞 ${usedPrefix}mamada *@tag*
+│  ִֶָ🔞 ${usedPrefix}lickpussy *@tag*
+│  ִֶָ🔞 ${usedPrefix}grabboobs *@tag*
+│  ִֶָ🔞 ${usedPrefix}suckboobs *@tag*
+│  ִֶָ🔞 ${usedPrefix}cum *@tag*
+│  ִֶָ🔞 ${usedPrefix}fap *@tag*
+│  ִֶָ🔞 ${usedPrefix}manosear *@tag*
+│  ִֶָ🔞 ${usedPrefix}lesbianas *@tag*
 ╰──────────────
 
-╭┈ *\`STICKERS 👩🏻‍🎨\`* ${xsticker}
-│  ִֶָ🎨 ${xsticker} ${usedPrefix}sticker *img*
-│  ִֶָ🎨 ${xsticker} ${usedPrefix}sticker *vid*
-│  ִֶָ🎨 ${xsticker} ${usedPrefix}brat *texto*
-│  ִֶָ🎨 ${xsticker} ${usedPrefix}bratv *texto*
-│  ִֶָ🎨 ${xsticker} ${usedPrefix}qc *texto*
-│  ִֶָ🎨 ${xsticker} ${usedPrefix}wm *texto*
-│  ִֶָ🎨 ${xsticker} ${usedPrefix}dado
-│  ִֶָ🎨 ${xsticker} ${usedPrefix}scat
+╭┈ *\`STICKERS 👩🏻‍🎨\`*
+│  ִֶָ🎨 ${usedPrefix}sticker *img*
+│  ִֶָ🎨 ${usedPrefix}sticker *vid*
+│  ִֶָ🎨 ${usedPrefix}brat *texto*
+│  ִֶָ🎨 ${usedPrefix}bratv *texto*
+│  ִֶָ🎨 ${usedPrefix}qc *texto*
+│  ִֶָ🎨 ${usedPrefix}wm *texto*
+│  ִֶָ🎨 ${usedPrefix}dado
+│  ִֶָ🎨 ${usedPrefix}scat
 ╰──────────────
 
-╭┈ *\` RPG 💰\`* ${xrpg}
-│  ִֶָ🪙 ${xrpg} ${usedPrefix}minar
-│  ִֶָ🪙 ${xrpg} ${usedPrefix}cofre
-│  ִֶָ🪙 ${xrpg} ${usedPrefix}slut
-│  ִֶָ🪙 ${xrpg} ${usedPrefix}nivel
-│  ִֶָ🪙 ${xrpg} ${usedPrefix}ruleta
-│  ִֶָ🪙 ${xrpg} ${usedPrefix}robarxp
-│  ִֶָ🪙 ${xrpg} ${usedPrefix}robardiamantes
-│  ִֶָ🪙 ${xrpg} ${usedPrefix}depositar
-│  ִֶָ🪙 ${xrpg} ${usedPrefix}daily
-│  ִֶָ🪙 ${xrpg} ${usedPrefix}crimen
-│  ִֶָ🪙 ${xrpg} ${usedPrefix}cartera
+╭┈ *\` RPG 💰\`*
+│  ִֶָ🪙 ${usedPrefix}minar
+│  ִֶָ🪙 ${usedPrefix}cofre
+│  ִֶָ🪙 ${usedPrefix}slut
+│  ִֶָ🪙 ${usedPrefix}nivel
+│  ִֶָ🪙 ${usedPrefix}ruleta
+│  ִֶָ🪙 ${usedPrefix}robarxp
+│  ִֶָ🪙 ${usedPrefix}robardiamantes
+│  ִֶָ🪙 ${usedPrefix}depositar
+│  ִֶָ🪙 ${usedPrefix}daily
+│  ִֶָ🪙 ${usedPrefix}crimen
+│  ִֶָ🪙 ${usedPrefix}cartera
 ╰──────────────
 
-╭┈ *\`REGISTRO 📇\`* ${xreg}
-│  ִֶָ🗃 ${xreg} ${usedPrefix}perfil
-│  ִֶָ🗃 ${xreg} ${usedPrefix}reg
-│  ִֶָ🗃 ${xreg} ${usedPrefix}unreg
+╭┈ *\`REGISTRO 📇\`*
+│  ִֶָ🗃 ${usedPrefix}perfil
+│  ִֶָ🗃 ${usedPrefix}reg
+│  ִֶָ🗃 ${usedPrefix}unreg
 ╰──────────────
 
-╭┈ *\`OWNER 🦈\`* ${xowner}
-│  ִֶָ🔝 ${xowner} ${usedPrefix}salir
-│  ִֶָ🔝 ${xowner} ${usedPrefix}update
-│  ִֶָ🔝 ${xowner} ${usedPrefix}blocklist
-│  ִֶָ🔝 ${xowner} ${usedPrefix}grouplist
-│  ִֶָ🔝 ${xowner} ${usedPrefix}restart
-│  ִֶָ🔝 ${xowner} ${usedPrefix}join
-│  ִֶָ🔝 ${xowner} ${usedPrefix}chetar
-│  ִֶָ🔝 ${xowner} ${usedPrefix}unbanuser
-│  ִֶָ🔝 ${xowner} ${usedPrefix}banchat
-│  ִֶָ🔝 ${xowner} ${usedPrefix}unbanchat
-│  ִֶָ🔝 ${xowner} ${usedPrefix}block
-│  ִֶָ🔝 ${xowner} ${usedPrefix}unblock
-│  ִֶָ🔝 ${xowner} ${usedPrefix}creargc
-│  ִֶָ🔝 ${xowner} ${usedPrefix}getplugin
-│  ִֶָ🔝 ${xowner} ${usedPrefix}let
-│  ִֶָ🔝 ${xowner} ${usedPrefix}dsowner
-│  ִֶָ🔝 ${xowner} ${usedPrefix}autoadmin
+╭┈ *\`OWNER 🦈\`*
+│  ִֶָ🔝 ${usedPrefix}salir
+│  ִֶָ🔝 ${usedPrefix}update
+│  ִֶָ🔝 ${usedPrefix}blocklist
+│  ִֶָ🔝 ${usedPrefix}grouplist
+│  ִֶָ🔝 ${usedPrefix}restart
+│  ִֶָ🔝 ${usedPrefix}join
+│  ִֶָ🔝 ${usedPrefix}chetar
+│  ִֶָ🔝 ${usedPrefix}unbanuser
+│  ִֶָ🔝 ${usedPrefix}banchat
+│  ִֶָ🔝 ${usedPrefix}unbanchat
+│  ִֶָ🔝 ${usedPrefix}block
+│  ִֶָ🔝 ${usedPrefix}unblock
+│  ִֶָ🔝 ${usedPrefix}creargc
+│  ִֶָ🔝 ${usedPrefix}getplugin
+│  ִֶָ🔝 ${usedPrefix}let
+│  ִֶָ🔝 ${usedPrefix}dsowner
+│  ִֶָ🔝 ${usedPrefix}autoadmin
 ╰──────────────
 > ${club}
 `.trim()
